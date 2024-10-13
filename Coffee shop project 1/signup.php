@@ -6,7 +6,7 @@ $username_err = $email_err = $mobile_err = $password_err = $confirm_password_err
 
 if ($_SERVER['REQUEST_METHOD'] == "POST"){
 
-    // Check if username is empty
+    // Check if username is empty .....
     if(empty(trim($_POST["username"]))){
         $username_err = "Username cannot be blank";
     }
